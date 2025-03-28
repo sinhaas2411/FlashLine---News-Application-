@@ -1,0 +1,13 @@
+Please add the following screenshots to this directory:
+
+1. main.png - Screenshot of the main landing page showing the news grid
+2. home.png - Screenshot of the home page with featured articles
+3. categories.png - Screenshot showing different news categories
+4. article.png - Screenshot of an individual article view
+5. mobile.png - Screenshot showing the mobile responsive design
+
+To capture these screenshots:
+1. Run the application locally
+2. Use browser's built-in screenshot tool or any screenshot software
+3. Save the images with the exact names mentioned above
+4. Make sure the screenshots are clear and show the UI elements properly 

@@ -26,7 +26,7 @@ const Newsapp = () => {
 
   useEffect(() => {
     getData();
-  }, [search]);
+  }, [getData]);
 
   useEffect(() => {
     if (userId) {
@@ -197,7 +197,7 @@ const Newsapp = () => {
                     style={inputStyle}
                   />
                   <button type="submit" style={buttonStyle}>Sign Up</button>
-                  <p>Already have an account? <a href="#" onClick={() => setIsSignup(false)}>Login</a></p>
+                  <p>Already have an account? <a href="#!" onClick={() => setIsSignup(false)}>Login</a></p>
                 </form>
               </>
             ) : (
@@ -219,7 +219,7 @@ const Newsapp = () => {
                     style={inputStyle}
                   />
                   <button type="submit" style={buttonStyle}>Login</button>
-                  <p>Don't have an account? <a href="#" onClick={() => setIsSignup(true)}>Sign Up</a></p>
+                  <p>Don't have an account? <a href="#!" onClick={() => setIsSignup(true)}>Sign Up</a></p>
                 </form>
               </>
             )}

@@ -19,8 +19,10 @@ const Card = ({ data, handleBookmark, isBookmarked }) => {
             </div>
             <div className='content'>
               <a
-                className='title'
-                onClick={() => window.open(curItem.url)}
+                href={curItem.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="card-link"
                 style={{ cursor: 'pointer' }}
               >
                 {curItem.title}
