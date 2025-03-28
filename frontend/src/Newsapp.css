@@ -1,0 +1,32 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .navbar h1 {
+    font-size: 24px;
+  }
+  
+  .navbar button {
+    background-color: #008CBA;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 10px;
+  }
+  
+  .navbar button:hover {
+    background-color: #45a049;
+  }
+  
+  .welcome-text {
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
